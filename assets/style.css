@@ -104,3 +104,61 @@ a:has(>i.fab) {
     top: 45%;
     width: initial;
 }
+
+.slider-caption {   
+    /* background-color: black; */
+    color: black;
+    width: 450px;
+    bottom: 5.25rem;
+    left: 10%;
+}
+
+.slider-caption span {
+    font-size: 50px;
+    color: red;
+    font-family: "Clicker Script",cursive;
+}
+
+.slider-caption h2 {
+    font-size: 50px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.slider-caption p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    opacity: 0.5;
+}
+
+.slider-caption a {
+    background-color: #323232;
+    /* height: 200px; */
+    width: 300px;
+    /* display: flex; */
+    height: 46px;
+    width: 150px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+
+.slider-caption a:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.slider-right {
+    left: 52%;
+}
