@@ -92,3 +92,15 @@ a:has(>i.fab) {
     bottom: -3px;
     background: rgb(206, 189, 156);
 }
+
+.slider {
+    background-color: gray;
+    height: 100px;
+    width: 50px;
+}
+
+.header-button {
+    height: 100px;
+    top: 45%;
+    width: initial;
+}
