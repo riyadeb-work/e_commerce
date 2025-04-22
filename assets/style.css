@@ -453,6 +453,10 @@ span span {
     font-size: 22px;
 }
 
+.blog-text h5 a:hover{
+    color: red;
+}
+
 .read-more {
     color: #292828;
     /* text-underline-offset: 4px; */
@@ -464,4 +468,141 @@ span span {
 .read-more:hover {
     letter-spacing: 0.8px;
     color: #292828;
+}
+
+.service-area {
+    height: 300px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.service-items {
+    /* margin-right: 0px; */
+    margin-left: 20px;
+    border-right: 1px solid rgb(185, 184, 184);
+    padding-right: 20px;
+    text-align: center;
+}
+
+.service-image {
+    margin-bottom: 26px;
+    height: 60px;   
+}
+
+.service-image img {
+    height: 100%;
+}
+
+.service-text h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #2B2B2B;
+}
+
+.service-text p {
+    color: #57667e;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.footer-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sub-items {
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sub-heading {
+    width: 250px;
+}
+
+.sub-heading h5 {
+    font-size: 24px;
+}
+
+.sub-heading p {
+    font-size: 15px;
+}
+
+.sub-form {
+    width: 500px;
+}
+
+.sub-form form {
+    height: 60px;
+}
+
+.sub-form form input {
+    height: 100%;
+    width: 70%;
+}
+
+.sub-form form button {
+    height: 100%;
+    width: 26%;
+    background-color: red;
+    color: white;
+}
+
+.sub-icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-icons i {
+    font-size: 30px;
+    color: gray;
+}
+
+.sub-line {
+    color: gray;
+}
+
+.footer-items {
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer-item-list {
+    width: 700px;
+} 
+
+.footer-item-list table {
+    width: 100%;
+}
+
+.footer-item-list table th {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-item-list table td {
+    padding-bottom: 10px;
+}
+
+.footer-item-list table td a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-line {
+    color: white;
+}
+
+.footer-bottom-area {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
